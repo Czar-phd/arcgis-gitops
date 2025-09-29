@@ -1,1 +1,32 @@
+# OS/IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Python/Ansible
+__pycache__/
 *.pyc
+.venv/
+.env
+*.retry
+
+# ArcGIS installers & licenses
+*.prvc
+*.ecp
+*.pfx
+*.p12
+*.key
+*.pem
+installers/
+artifacts/
+secrets/
+*.zip
+*.tar.gz
+*.iso
+
+# Terraform noise
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+terraform.tfvars
